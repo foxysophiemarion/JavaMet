@@ -133,5 +133,6 @@ public class Lesson_2 {
 		System.out.print("Input height: ");
 		float height = in.nextFloat();
 		System.out.printf("Name: %s Age: %d Height %2 \n", name, age, height);
+		in.close();
 	}
 }
