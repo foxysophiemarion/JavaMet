@@ -111,32 +111,31 @@ public class Lesson_8 {
 		// System.out.printf("Сумму вклада после начисления процентов: %f", sum);
 		// in.close();
 
-		// Scanner in = new Scanner(System.in);
-		// System.out.println("Введите первое число: ");
-		// int num1 = in.nextInt();
-		// System.out.println("Введите второе число: ");
-		// int num2 = in.nextInt();
-		// System.out.println("Введите номер операции: 1.Сложение 2.Вычитание
-		// 3.Умножение");
-		// int operation = in.nextInt();
-		// int result = 0;
-		// switch (operation) {
-		// case 1:
-		// result = num1 + num2;
-		// break;
-		// case 2:
-		// result = num1 - num2;
-		// break;
-		// case 3:
-		// result = num1 * num2;
-		// break;
-		// default:
-		// System.out.println("Неизвестная операция");
-		// }
-		// if (operation >= 1 && operation <= 3) {
-		// System.out.printf("Результат операции: %d", result);
-		// }
-		// in.close();
+		Scanner in = new Scanner(System.in);
+		System.out.println("Введите первое число: ");
+		int num1 = in.nextInt();
+		System.out.println("Введите второе число: ");
+		int num2 = in.nextInt();
+		System.out.println("Введите номер операции: 1.Сложение 2.Вычитание 3.Умножение");
+		int operation = in.nextInt();
+		int result = 0;
+		switch (operation) {
+			case 1:
+				result = num1 + num2;
+				break;
+			case 2:
+				result = num1 - num2;
+				break;
+			case 3:
+				result = num1 * num2;
+				break;
+			default:
+				System.out.println("Неизвестная операция");
+		}
+		if (operation >= 1 && operation <= 3) {
+			System.out.printf("Результат операции: %d", result);
+		}
+		in.close();
 
 		// int a = 5;
 		// switch (a) {
